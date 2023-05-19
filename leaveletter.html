@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        #k{
+            background-color: rgb(194, 9, 64);
+            width: 700px;
+            height: 900px;
+            border: solid 2px black;
+        }
+        #v{
+             margin-left: 500px;
+        }
+    </style>
+</head>
+<body><div id="k">
+    <div><center><h1>Leave letter</h1></center>
+        <h3>From:</h3>
+        <p id="A"></p>
+        <p id="a"></p>
+        <p id="b"></p>
+        <p id="c"></p><br>
+        <h3>To:</h3>
+        <p id="d"></p>
+        <p id="e"></p>
+        <p id="f"></p><br>
+        <h3>Subject:</h3>
+        <p id="g"></p>
+        <p id="h"></p><br>
+        <p>Sincerely</p>
+        <p id="v"> Yoursfaithfully</p>
+        <center>
+         <input type="button" value="print" onclick="print()">
+         </center>
+        </div>
+        </div>
+     <script>
+        var data=window.prompt("From")
+        document.getElementById("A").innerText=data
+        var data=window.prompt("Name")
+        document.getElementById("a").innerText=data
+        var data=window.prompt("Address")
+        document.getElementById("b").innerText=data
+        var data=window.prompt("Today Date")
+        document.getElementById("c").innerText=data
+        var data=window.prompt("To")
+        document.getElementById("d").innerText=data
+        var data=window.prompt("Name")
+        document.getElementById("e").innerText=data
+        var data=window.prompt("Address")
+        document.getElementById("f").innerText=data
+        var data=window.prompt("Subject")
+        document.getElementById("g").innerText=data
+        var data=window.prompt("data")
+        document.getElementById("h").innerText=data
+   </script>
+</body>
+</html>
